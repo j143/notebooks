@@ -31,3 +31,13 @@ ORDER BY `month` DESC
 
 #### Graphic
 
+
+### Interest over time for SystemML(DS)
+
+#### Apache SystemML
+
+![Apache SystemML Trends](./media/Apache-SystemML-google-trends-2020-06-14.png)
+
+#### SystemDS
+
+![SystemDS](./media/SystemDS-google-trends-2020-06-14.png)
