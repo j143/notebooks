@@ -33,6 +33,7 @@ ORDER BY `month` DESC
 
 ![Graph](./media/pypi-installs-systemml-2020-06-14.png)
 
+
 ### Companies Using SystemML
 
 | #  	| Company                              	| URL                     	| Industry          	| Sub-Industry                                      	|
@@ -54,3 +55,13 @@ ORDER BY `month` DESC
 | 15 	| Wells Fargo                          	| wellsfargo.com          	| Finance           	| Banking                                           	|
 
 (source: [hgdata](https://discovery.hgdata.com/product/apache-systemml))
+
+### Interest over time for SystemML(DS)
+
+#### Apache SystemML
+
+![Apache SystemML Trends](./media/Apache-SystemML-google-trends-2020-06-14.png)
+
+#### SystemDS
+
+![SystemDS](./media/SystemDS-google-trends-2020-06-14.png)
