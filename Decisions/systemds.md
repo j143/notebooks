@@ -1,5 +1,6 @@
 ### SystemML python pip install downloads
 
+[Google Bigquery](https://console.cloud.google.com/bigquery) script:
 ```sql
 
 SELECT
@@ -16,6 +17,7 @@ WHERE
 GROUP BY `month`
 ORDER BY `month` DESC
 ```
+(Reference source: [Pypi Guide](https://packaging.python.org/guides/analyzing-pypi-package-downloads/))
 
 #### Results
 
