@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-** What is proposed? **
+**What is proposed?**
 Explanation of the proposal
 
-** TL;DR **
+**TL;DR**
 
 provide any screenshots, or code snippet to explain in shortest time possible.
