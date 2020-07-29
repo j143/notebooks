@@ -51,3 +51,33 @@ function Install-HadoopUtils() {
 }
 
 Install-SystemDS("F:\Repo\systemds")
+
+
+#---- Download with BITS
+Import-Module BitsTransfer
+
+$DownloadedSpark = "$env:temp\apache-spark"
+
+$Arch = (Get-Process -Id $PID).StartInfo.EnvironmentVariables['PROCESSOR_ARCHITECTURE']
+
+if ($Arch -eq 'x86') {
+    Write-Host 'Current platform is Win32.'
+}
+elseif ($Arch -eq 'amd64') {
+    Write-Host 'Current platform is Win64.'
+    #$downloadUrl = "https://downloads.apache.org/spark/spark-2.4.6/spark-2.4.6-bin-hadoop2.7.tgz"
+    $downloadUrl = "https://www.apache.org/img/support-apache.jpg"
+}
+else {
+    Write-Host 'Unknown platform'
+    
+    return
+}
+
+$req = [System.Net.WebRequest]::create($downloadUrl)
+$resp = $req.GetResponse()
+
+Start-BitsTransfer -Source "$($resp.ResponseUri.AbsoluteUri)" -Destination "$DownloadedSpark"
+
+Write-Host 'Download complete.'
+#----
