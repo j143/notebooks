@@ -44,6 +44,7 @@ This is normally the description.
 3. Shortcomings to the approached, if any (important!).
 
 Additional info
+
 4. background information
    - bug numbers
    - benchmark results
@@ -52,13 +53,59 @@ Additional info
    - reviewers
    - future readers to understand the Changes.
 
+[1abe9cb](https://github.com/apache/systemds/commit/1abe9cb79d8001992f1c79ba5e638e6b423a1382)
+
+```
+[SYSTEMDS-418] Performance improvements lineage reuse probing/spilling …
+
+This patch makes some minor performance improvements to the lineage
+reuse probing and cache put operations. Specifically, we now avoid
+unnecessary lineage hashing and comparisons by using lists instead of
+hash maps, move the time computations into the reuse path (to not affect
+the code path without lineage reuse), avoid unnecessary branching, and
+materialize the score of cache entries to avoid repeated computation
+for the log N comparisons per add/remove/constaints operation.
+
+For 100K iterations and ~40 ops per iteration, lineage tracing w/ reuse
+improved from 41.9s to 38.8s (pure lineage tracing: 27.9s).
+```
+
 ##### Good CL descriptions
 
 Functionality change
 
 Refactoring
 
+```
+[SYSTEMDS-2575] Fix eval function calls (incorrect pinning of inputs) …
+
+This patch fixes an issue of indirect eval function calls where wrong
+input variable names led to missing pinning of inputs and thus too eager
+cleanup of these variables (which causes crashes if the inputs are used
+in other operations of the eval call).
+
+The fix is simple. We avoid such inconsistent construction and
+invocation of fcall instructions by using a narrower interface and
+constructing the materialized names internally in the fcall.
+```
+
 Small Changeset still needs some context
+
+Example [7af2ae0](https://github.com/apache/systemds/commit/7af2ae04f28ddcb36158719a25a7fa34b22d3266)
+
+Commit message:
+```
+[MINOR] Update docker images organization
+
+Changes the docker images to use the docker organization systemds
+add install dependency for R dbScan
+Change the tests to use the new organizations docker images
+
+Closes #1008
+```
+
+> Protip: to reference other commits use first 7 letters of the commit SHA-1.
+> eg. `1b81d8c` for referencing `1b81d8cb19d8da6d865b7fca5a095dd5fec8d209`
 
 ##### Adapt the description before apply to the master
 
