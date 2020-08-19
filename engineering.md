@@ -100,8 +100,10 @@ Refer to JIRA for detailed discussions.
 
 ##### Refactoring
 
+[`e581b5a`](https://github.com/apache/systemds/commit/e581b5a6248b56a70e18ffe6ba699e8142a2d679)
+
 ```
-[SYSTEMDS-2575] Fix eval function calls (incorrect pinning of inputs) …
+[SYSTEMDS-2575] Fix eval function calls (incorrect pinning of inputs)
 
 This patch fixes an issue of indirect eval function calls where wrong
 input variable names led to missing pinning of inputs and thus too eager
