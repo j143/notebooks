@@ -2,19 +2,23 @@
 
 > Avoid merge commits. Every commit is a story which makes a history (a linear one!).
 
-> Not only the code, the discussions and approach are all as important and to be written
-> down.
+### Code authoring and review practices
 
-### It all starts with a Pull Request (PR)
+Let us follow the same guide used by Apache Spark and Google Engineering teams.
+see https://google.github.io/eng-practices.
 
-An effective way to make a change to the project is to make a proposal in
+The following sections provide a tailored guide for SystemDS developers.
+
+### ~~It all starts with a Pull Request (PR)~~
+
+~~An effective way to make a change to the project is to make a proposal in
 the form of a pull request against the `master` branch. Start with a small changeset
 and add `[WIP]` tag to the PR and ask for preliminary review at first to decide upon the
-correct direction.
+correct direction.~~
 
-Note: PR is also called `commit`, `patch`, `Change List (CL)`, or `Merge Request (MR)`.
 
-### PR descriptions
+
+### PR description
 
 > A PR or commit description is a public record of **what** change is being made and **why**
 > it was made.
@@ -28,7 +32,11 @@ the commit
 
 Navigate to https://github.com/apache/systemds/commits/master for the descriptions.
 
-#### First Line
+Note: PR is also called `commit`, `patch`, `Change List (CL)`, or `Merge Request (MR)`.
+
+#### Structure of the description
+
+##### First Line
 
 1. Short summary of what the changeset does.
 2. Complete sentence, crafted as though it was an order.
@@ -36,7 +44,7 @@ Navigate to https://github.com/apache/systemds/commits/master for the descriptio
     - No need to write the rest of the description as an imperative though.
 3. Follow by  empty line.
 
-#### Body
+##### Body
 
 This is normally the description.
 
@@ -133,18 +141,13 @@ Closes #1008
 > Protip: to reference other commits use first 7 letters of the commit SHA-1.
 > eg. `1b81d8c` for referencing `1b81d8cb19d8da6d865b7fca5a095dd5fec8d209`
 
-##### Adapt the description before apply to the master
+#### Adapt the description before apply to the master
 
 The PRs undergo changes during the review. It can be worthwhile to
 review a PR (or commit) description, to ensure the description still
 reflects what the PR (or commit) does.
 
-##### Code authoring and review practices
-
-Let us follow the same guide used by Apache Spark and Google Engineering teams.
-see https://google.github.io/eng-practices.
-
-##### Refactoring (code or documentation)
+#### Refactoring (code or documentation)
 
 On any given day we work on the code and parallely modify the previously working code
 for better maintenance and internal structure which we normally call as refactoring.
@@ -156,13 +159,13 @@ for better maintenance and internal structure which we normally call as refactor
 
 Resource link: https://refactoring.com/
 
-##### Keep informed
+#### Keep informed
 
 As a par of a full distributed organization (i.e., people in different timezones), it is
 important to stay informed about engineering-led initiatives.
 
 
-##### Meeting
+#### Meeting
 
 Schedule a meeting (via Google Meet) at 
 
@@ -179,3 +182,5 @@ https://calendar.google.com/calendar/b/1?cid=cGhpM2pjZGZlMDRpMHJtbGMzc2JpcDQ2OGt
 1. Stick to the agenda.
 2. Make sure to share a google doc for meet.
 
+> Not only the code, the discussions and approach are all as important and to be written
+> down.
