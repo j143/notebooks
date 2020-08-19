@@ -18,12 +18,13 @@ correct direction.~~
 
 
 
-### PR description
+### Commit description
 
-> A PR or commit description is a public record of **what** change is being made and **why**
+> A commit or PR description is a public record of **what** change is being made and **why**
 > it was made.
 
 #### Why the description necessary?
+
 1. To keep a record of the work done.
 2. In future, Developers search for the commit based on its description.
 3. Someone in the future looking for your change because of a faint memory of its relevance.
@@ -147,6 +148,7 @@ The PRs undergo changes during the review. It can be worthwhile to
 review a PR (or commit) description, to ensure the description still
 reflects what the PR (or commit) does.
 
+---
 #### Refactoring (code or documentation)
 
 On any given day we work on the code and parallely modify the previously working code
