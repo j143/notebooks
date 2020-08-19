@@ -2,12 +2,12 @@
 ---
 
 The following tips and tools are found to be useful in the daily life
-of a [SystemDS](https://github.com/apache/systemds) developer (works for other too!).
+of a [SystemDS](https://github.com/apache/systemds) developer (works for others too!).
 
 #### Tips
 
 The following tips would improve the speed and consistency in work.
-Decreases the lazyness for working productively.
+Decreases the lazyness around working productively.
 
 ##### _Keyboard shortcuts_
 
@@ -45,11 +45,12 @@ Unicode arrows (→ ⇒ ⇄ ↻) reference [link](http://xahlee.info/comp/unicod
 
 ##### _Thank you_
 
-Thanks at the beginning, during and at the end of any process.
+Thank at the beginning, during and at the end of any process.
 
 In a `Pull Request (PR)` there are about `10` *Thank you*'s!
 
 ##### _Shall we ask questions or give a request or suggestion?_
+
 Even though we are sure about something, let us give some room for discussion by
 asking a question.
 
@@ -62,7 +63,7 @@ See https://www.grammarly.com/blog/how-to-end-an-email/
 ##### _Mail address_
 
 Make sure to have a different email addresss for Open Source discussion with a pseudony, such
-for example, *corepointer* or *j143*. So that email address can be j143 [at] protonmail.com
+for example, **corepointer** or **j143**. So that email address can be `j143 [at] protonmail.com`.
 
 ##### _Full name_
 
