@@ -23,7 +23,7 @@ correct direction.~~
 > A PR or commit description is a public record of **what** change is being made and **why**
 > it was made.
 
-Why the description necessary?
+#### Why the description necessary?
 1. To keep a record of the work done.
 2. In future, Developers search for the commit based on its description.
 3. Someone in the future looking for your change because of a faint memory of its relevance.
