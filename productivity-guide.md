@@ -1,4 +1,13 @@
-#### Productivity tips
+### Productivity tips and tools
+---
+
+The following tips and tools are found to be useful in the daily life
+of a [SystemDS](https://github.com/apache/systemds) developer (works for other too!).
+
+#### Tips
+
+The following tips would improve the speed and consistency in work.
+Decreases the lazyness for working productively.
 
 ##### _Keyboard shortcuts_
 
@@ -59,11 +68,13 @@ for example, *corepointer* or *j143*. So that email address can be j143 [at] pro
 
 Full name of a person is to be kept private.
 
-If you are using Gmail, navigate to https://mail.google.com/mail/u/0/#settings/accounts
-In the `edit info` section, you might want to remove your second name! :)
+1. If you are using Gmail, navigate to https://mail.google.com/mail/u/0/#settings/accounts.
+
+2. In the `edit info` section, you might want to remove your second name! :)
 
 See https://en.wikipedia.org/wiki/Principle_of_least_privilege.
 
+---
 #### Tools
 
 ##### _Grammar correction tool_
@@ -78,7 +89,13 @@ The chat language ("u" instead of "you") to be avoided, write down full sentence
 
 Manage time and stay undistracted!
 
-How it works?
+> How it works?
+>
+> 1. Choose a task you'd like to get done
+> 2. Set the timer for 25 minutes
+> 3. Work on the task until the time completes
+> 4. Note it as one *pomodoro*
+> 5. Take a short break
 
 see https://francescocirillo.com/pages/pomodoro-technique
 
@@ -106,5 +123,9 @@ https://www.theschooloflife.com/thebookoflife/the-task-of-turning-vague-thoughts
 Article link:
 https://www.theschooloflife.com/thebookoflife/on-resilience
 
+---
+#### External links
 
+1. A Human Guide to Developer Productivity.
+link: https://snipcart.com/blog/guide-developer-productivity-tools
 
