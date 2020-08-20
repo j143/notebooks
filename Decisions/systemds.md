@@ -21,6 +21,22 @@ ORDER BY `month` DESC
 
 #### Results
 
+##### Query run on 20th Aug, 2020
+
+> 341.5 GB of data processed.
+
+| num_downloads | month |
+| --- | --- |
+| 6,922 | Aug, 2020 |
+| 14,864 | July, 2020 |
+| 13,163 | June, 2020 |
+| 6,613 | May, 2020 |
+| 10,331 | Apr, 2020 |
+| 13,483 | Mar, 2020 |
+| 9,150 | Feb, 2020 |
+| 4207 | Jan, 2020 |
+
+##### Query run on June, 2020
 | num_downloads | month |
 | --- | --- |
 | 5077 | 202006 |
