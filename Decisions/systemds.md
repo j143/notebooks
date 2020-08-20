@@ -19,7 +19,7 @@ ORDER BY `month` DESC
 ```
 (Reference source: [Pypi Guide](https://packaging.python.org/guides/analyzing-pypi-package-downloads/))
 
-#### Results
+#### SystemML downloads
 
 ##### Query run on 20th Aug, 2020
 
@@ -46,6 +46,18 @@ ORDER BY `month` DESC
 | 9150 | 202002 |
 | 4207 | 202001 |
 | 3443 | 201912 |
+
+#### SystemDS downloads
+
+##### Query run on 20th Aug, 2020
+| num_downloads | month |
+| --- | --- |
+| 316 | Aug, 2020 |
+| 335 | July, 2020 |
+| 468 | June, 2020 |
+| 280 | May, 2020 |
+| 216 | Apr, 2020 |
+| 411 | Mar, 2020 |
 
 #### Graphic
 
