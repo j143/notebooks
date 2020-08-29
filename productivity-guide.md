@@ -9,23 +9,23 @@ of a [SystemDS](https://github.com/apache/systemds) developer (works for others 
 The following tips would improve the speed and consistency in work.
 Decreases the lazyness around working productively.
 
-##### _Keyboard shortcuts_
+##### Keyboard shortcuts
 
 1. Selects the whole thing - `Shift` + `fn` + `->`
 2. More control over the selection - `Shift` + `->`
 3. Word by word movement - `Ctrl` + `->`
 
-##### _Intellij specific_
+##### Intellij specific
 
 Search the codebase - Press `Shift` 2 times
 
-##### _Windows-specific_
+##### Windows-specific
 
 Snippet - `Win` + `Shift` + `S`
 Powershell options - `Win` + `X`
 Organize windows - `Win` + `->` or `<-`
 
-##### _Emoji_
+##### Emoji
 
 Bring brilliance to the discussion.
 
@@ -39,34 +39,34 @@ Bring brilliance to the discussion.
 
 Note: complete [emoji list](https://gist.github.com/rxaviers/7360908).
 
-##### _Unicode symbols_
+##### Unicode symbols
 
 Unicode arrows (→ ⇒ ⇄ ↻) reference [link](http://xahlee.info/comp/unicode_arrows.html)
 
-##### _Thank you_
+##### Thank you
 
 Thank at the beginning, during and at the end of any process.
 
 In a `Pull Request (PR)` there are about `10` *Thank you*'s!
 
-##### _Shall we ask questions or give a request or suggestion?_
+##### Shall we ask questions or give a request or suggestion?
 
 Even though we are sure about something, let us give some room for discussion by
 asking a question.
 
-##### _Email etiquette_
+##### Email etiquette
 
 See https://www.grammarly.com/blog/how-to-end-an-email/
 
 ---
 #### Privacy
 
-##### _Mail address_
+##### Mail address
 
 Make sure to have a different email addresss for Open Source discussion with a pseudony, such
 for example, **corepointer** or **j143**. So that email address can be `j143 [at] protonmail.com`.
 
-##### _Full name_
+##### Full name
 
 Full name of a person is to be kept private.
 
@@ -79,7 +79,7 @@ See https://en.wikipedia.org/wiki/Principle_of_least_privilege.
 ---
 #### Tools
 
-##### _Grammar correction tool_
+##### Grammar correction tool
 
 Always check for typos in emails, comments or discussions.
 
@@ -87,7 +87,7 @@ Some tools: [Grammarly](https://www.grammarly.com/)
 
 The chat language ("u" instead of "you") to be avoided, write down full sentences.
 
-##### _Pomodoro technique_
+##### Pomodoro technique
 
 Manage time and stay undistracted!
 
@@ -103,13 +103,13 @@ see https://francescocirillo.com/pages/pomodoro-technique
 
 A chrome extension at https://github.com/schmich/marinara
 
-##### _Git documentation_
+##### Git documentation
 
 One stop shopping for all that is git.
 
 see https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-##### _Vocabulary_
+##### Vocabulary
 
 The words that we frequently use in development conversations
 
