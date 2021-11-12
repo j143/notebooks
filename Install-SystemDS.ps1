@@ -1,3 +1,5 @@
+#Requires -RunAsAdministrator
+
 function Install-SystemDS([string]$systemdsHome){
   
   # start http://google.com
@@ -29,9 +31,22 @@ function Install-Spark([string]$installDir) {
 }
 
 function Install-Maven() {
+
+  $url = 'https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.zip';
+  $file = 'F:\dependencies\apache-maven-3.8.3-bin.zip'
+  
+  # Create the folder for the driver download
+  if (!(Test-Path -Path 'F:\depedencies')) {
+        New-Item -Path 'F:\' -Name 'dependencies' -ItemType 'directory' | Out-Null
+  }
+  
   # 1. Download maven
   # 1a. verify maven artifacts
+  Invoke-WebRequest $url -OutFile $file
+  
   # 2. Unzip maven
+  Unzip -q $file
+  
   # 3. Set `MAVEN_HOME` variable
   # 4. Set `MAVEN_HOME\bin` to path
   # 5. Test the `mvn -v` command works
